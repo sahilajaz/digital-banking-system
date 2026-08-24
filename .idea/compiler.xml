@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="api-gateway" />
+        <module name="transation-service" />
         <module name="payment-service" />
         <module name="account-service" />
         <module name="notification-service" />
@@ -21,6 +22,7 @@
       <module name="fraud-detection-service" options="-parameters" />
       <module name="notification-service" options="-parameters" />
       <module name="payment-service" options="-parameters" />
+      <module name="transation-service" options="-parameters" />
     </option>
   </component>
 </project>
